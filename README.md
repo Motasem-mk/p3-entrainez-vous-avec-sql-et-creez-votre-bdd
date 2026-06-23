@@ -143,15 +143,17 @@ Cette normalisation permet d’améliorer la cohérence des données, de limiter
 Les requêtes SQL répondent aux besoins métier exprimés dans le compte-rendu de réunion, notamment :
 
 1. nombre total d’appartements vendus au premier semestre 2020 ;
-2. nombre de ventes d’appartements par région ;
+2. nombre de ventes d’appartements par région pour le premier semestre 2020 ;
 3. proportion des ventes d’appartements par nombre de pièces ;
-4. départements où le prix du mètre carré est le plus élevé ;
+4. liste des 10 départements où le prix du mètre carré est le plus élevé ;
 5. prix moyen du mètre carré d’une maison en Île-de-France ;
-6. liste des appartements les plus chers ;
-7. évolution du nombre de ventes entre le premier et le deuxième trimestre 2020 ;
-8. classement des régions selon le prix au mètre carré ;
-9. communes ayant enregistré au moins 50 ventes au premier trimestre ;
-10. différence de prix au mètre carré entre les appartements de 2 et 3 pièces.
+6. liste des 10 appartements les plus chers avec leur région et leur surface ;
+7. taux d’évolution du nombre de ventes entre le premier et le deuxième trimestre 2020 ;
+8. classement des régions selon le prix au mètre carré des appartements de plus de 4 pièces ;
+9. liste des communes ayant enregistré au moins 50 ventes au premier trimestre ;
+10. différence en pourcentage du prix au mètre carré entre un appartement de 2 pièces et un appartement de 3 pièces ;
+11. moyennes des valeurs foncières pour le top 3 des communes des départements 06, 13, 33, 59 et 69 ;
+12. top 20 des communes avec le plus de transactions pour 1000 habitants parmi les communes de plus de 10 000 habitants.
 
 Les requêtes SQL sont disponibles dans le dossier :
 
@@ -173,7 +175,8 @@ Les analyses SQL ont permis d’identifier plusieurs tendances importantes :
 * les appartements les plus chers sont concentrés en Île-de-France ;
 * une augmentation d’environ **3,68 %** des ventes est observée entre le premier et le deuxième trimestre 2020 ;
 * l’Île-de-France affiche le prix moyen au mètre carré le plus élevé, autour de **5 771,30 €** ;
-* Paris, Nice, Marseille, Bordeaux et Grenoble figurent parmi les communes importantes en volume de ventes.
+* Paris, Nice, Marseille, Bordeaux et Grenoble figurent parmi les communes importantes en volume de ventes ;
+* les appartements de 3 pièces sont, en moyenne, environ **13,03 %** moins chers au mètre carré que les appartements de 2 pièces.
 
 ---
 
