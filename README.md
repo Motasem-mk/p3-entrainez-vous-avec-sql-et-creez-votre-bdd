@@ -215,7 +215,7 @@ Concernant le RGPD, les données utilisées ne contiennent pas de données perso
 ├── presentation/
 │   └── Abualqumboz_Motasem_support_112024.pptx
 └── requirements/
-    └── CR_réunion.pdf
+    └── CR_reunion.pdf
 ```
 
 ---
