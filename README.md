@@ -264,4 +264,5 @@ Ce projet est un POC académique et présente certaines limites :
 ## Auteur
 
 **Motasem Abualqumboz**
+
 Parcours Data Engineer — OpenClassrooms
